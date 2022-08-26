@@ -1,0 +1,50 @@
+/* reset css */
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* trong media query ta nên dùng đơn vị là em là chuẩn xác nhất 
+có thể tham khảo ở https://zellwk.com/blog/media-query-units/ */
+html{
+    position: relative;
+    background-color: green;
+}
+#include-main{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.mobile, .tablet, .pc{
+    font-size: 100px;
+    text-align: center;
+    margin: auto;
+    display: none;
+}
+/* reponsive */
+/* hien thi cho mobile <740px*/
+@media only screen and (max-width: 46.1875em) {
+    .mobile{
+          display: block;
+    }
+}
+/* hien thi cho tablet >=740px* and <1024px*/
+@media only screen and (min-width: 45.625em) and (max-width:63.9375em) {
+    .tablet{
+          display: block;
+    }
+}
+/* hien thi cho pc >=1024pxpx*/
+@media only screen and (min-width: 64em) {
+    .pc{
+          display: block;
+    }
+}
+

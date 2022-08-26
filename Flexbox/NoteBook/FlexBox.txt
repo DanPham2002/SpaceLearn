@@ -1,0 +1,17 @@
+
+Css flexbox:
+vd: display: flex | inline-flex
+flex-direction: row | column
+flex-warp: nowrap | warp | wrap-reverse
+flex-basis: length 
+justify-content: flex-start | flex-end | center | space-between | space-around
+justify-self: flex-start | flex-end | center
+align-content: flex-start | flex-end | center
+align-self: flex-start | flex -end | center 
+flex-grow:  <number>
+flex-shrink: <number>
+flex: <number>
+order: <number>
+XEM THÊM CHI TIẾT TẠI: https://www.w3schools.com/css/css3_flexbox.asp
+
+

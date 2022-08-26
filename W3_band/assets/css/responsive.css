@@ -1,0 +1,155 @@
+/* Reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reponsive */
+/* cho ipad >=768px and <1024px */
+@media (min-width: 48em) and (max-width: 63.9375em){
+    .about-text {
+        padding: 0 16px;
+    }
+    .content-section{
+        padding: 64px 16px !important;
+        margin: 0 !important;
+    }
+    .team-section {
+        padding: 48px 0;
+        margin-left: -8px !important;
+        width: 105% !important;
+    }
+    .name-info {
+        width: 44.9% !important;
+        margin-right: 10px !important;
+    }
+    .about-contact{
+        padding: 48px 16px !important;
+    }
+    .about-team{
+        width: 33.33333% !important;
+    }
+    .pa-icon{
+        font-size: 28px;
+        padding: 8px;
+    }
+    .source-page {
+        font-size: 20px !important;
+        margin: 32px 0 !important;
+    }
+    .link-source {
+        padding: 13px 0;
+    }
+    
+
+}
+/* cho mobile < 768px */
+@media (max-width: 47.9375em){
+    #header{
+        overflow: hidden;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 16px 42px;
+    }
+    .search-btn, .text-content{
+        display: none !important;
+    }
+    .mobile-menu{
+        position: absolute;
+        display: block !important;
+        float: right !important;
+        top: 0;
+        right: 0;
+        padding: 14px 24px !important ;
+     }
+    .mobile-menu:hover{
+        color: #000 !important;
+        background-color: #ccc !important; 
+     }
+    .mobile-menu:active{
+        color: #000 !important;
+        background-color: #ccc !important; 
+    }
+    .about-text {
+        padding: 0 16px;
+    }
+    .team-section {
+        padding: 48px 50px !important;
+    }
+    .random-name{
+        width: 80% !important;
+    }
+    .content-section{
+        padding:  px 16px !important;
+    }
+    .team-section {
+        padding: 48px 0;
+        width: 100% !important;
+    }
+    .name-info {
+        width: 100% !important;
+        margin-right: 10px !important;
+    }
+    .email-info {
+        width: 100% !important;
+        margin-top: 8px !important;
+    }
+    .about-contact{
+        padding: 48px 16px !important;
+    }
+    .about-team{
+        width: 100% !important;
+    }
+    .about-tour{
+        margin: 30px 16px 0 !important;
+    }
+    .tour-local {
+        display: block;
+        width: 100% !important;
+        padding: 0px 16px !important;
+        padding-bottom: 16px !important;
+    }
+    .info-contact {
+        width: 100% !important;
+    }
+    .form-info{
+        width: 100% !important;
+        padding-top: 32px;
+    }
+    .buy-btn {
+        width: 100%;
+    }
+    .submit-btn {
+        width: 100%;
+    }
+    .pa-icon{
+        font-size: 28px;
+        padding: 8px;
+    }
+    .source-page {
+        font-size: 20px !important;
+        margin: 32px 0 !important;
+    }
+    .link-source {
+        padding: 13px 0;
+    }
+    
+    
+}
+.open-menu{
+    display: block !important;
+}

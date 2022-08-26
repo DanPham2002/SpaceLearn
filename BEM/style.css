@@ -1,0 +1,44 @@
+/* reset css */
+*{
+    border: 0; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body>div{
+    margin: auto;
+}
+.btn + .btn{
+    margin-left: 20px;
+}
+.btn{
+    padding: 12px 32px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+.btn:hover{
+    opacity: 0.5;
+}
+.btn--succsess{
+    background-color: green;
+
+}
+.btn--warn{
+    background-color: orange;
+    min-width: 120px;
+}
+.btn--danger{
+    background-color: tomato;
+}
+.btn--disable{
+    opacity: 0.5 !important;
+    cursor: default;
+}
